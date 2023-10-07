@@ -10,10 +10,6 @@ public class Tesis extends Escrito{
 	private String referencias;
 	private String interpretacion;
 	
-	//public Tesis() {
-		//this("Colombia", "Satanas", "Mario Mendoza", 100, "Habia una vez", "Vivieron felices", "El dueño", "Carlos Villagran");
-	//}
-	
 	public Tesis(String origen, String titulo, String autor, int paginas, String idea, String[] argumentos, String conclusion, String referencias, String interpretacion) {
 		super(origen, titulo, autor, paginas);
 		
