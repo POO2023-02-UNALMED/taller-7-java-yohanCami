@@ -7,9 +7,6 @@ public class Libro extends Escrito {
 	private String edicion;
 	private String interpretacion;
 	
-	public Libro() {
-		this("Colombia", "Satanas", "Mario Mendoza", 100, "NN", "Librus", "Segunda", "Muy bonita");
-	}
 	
 	public Libro(String origen, String titulo, String autor, int paginas, String co_autor, String editorial, String edicion, String interpretacion) {
 		super(origen, titulo, autor, paginas);
